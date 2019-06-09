@@ -316,7 +316,7 @@ export class Textarea implements ComponentInterface {
 
     return (
       <textarea
-        class="native-textarea"
+        class={`native-textarea ${this.wrap == "off" ? "wrap-off" : ""}`}
         ref={el => this.nativeInput = el}
         autoCapitalize={this.autocapitalize}
         autoFocus={this.autofocus}

@@ -102,6 +102,10 @@
   }
 }
 
+.native-textarea.wrap-off {
+  white-space: nowrap;
+}
+
 .native-textarea[disabled] {
   opacity: .4;
 }
