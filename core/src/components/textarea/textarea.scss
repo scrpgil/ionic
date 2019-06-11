@@ -72,7 +72,6 @@
   @include border-radius(var(--border-radius));
   @include margin(0);
   @include padding(var(--padding-top), var(--padding-end), var(--padding-bottom), var(--padding-start));
-  @include text-inherit();
 
   display: block;
 
@@ -88,8 +87,6 @@
   box-sizing: border-box;
   resize: none;
   appearance: none;
-
-  white-space: pre-wrap;
 
   &::placeholder {
     color: var(--placeholder-color);
